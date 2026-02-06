@@ -59,7 +59,7 @@ const About = () => {
    variants={fadeIn("","",0.1,1)}
    className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
    >
-      Sou Henry Vilela Silva Tito, estudante da FATEC São José dos Campos e desenvolvedor de software com experiência em TypeScript, JavaScript e tecnologias modernas de desenvolvimento web. Tenho interesse em me aprofundar nas áreas de Web e DevOps.
+      Sou Henry Vilela Silva Tito, estudante da FATEC São José dos Campos e desenvolvedor de software com experiência em TypeScript, JavaScript, C#, Java e tecnologias modernas de desenvolvimento web. Tenho interesse em me aprofundar nas áreas de Web e DevOps.
 
       Possuo grande afinidade com banco de dados e desenvolvimento backend, focando em criar soluções eficientes e escaláveis. Sou proativo, aprendo rápido e gosto de colaborar para transformar ideias em soluções reais.
 
