@@ -1,5 +1,4 @@
 import React from 'react'
-import { motion } from 'framer-motion'
 import { styles } from '../styles'
 
 const Hero = () => {
@@ -8,13 +7,8 @@ const Hero = () => {
   
       <div className={`${styles.paddingX} max-w-7xl mx-auto w-full flex items-center justify-between`}>
 
-        
-        <motion.div
-          initial={{ x: -80, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-          className="flex flex-row items-start gap-5"
-        >
+        {/* TEXTO */}
+        <div className="flex flex-row items-start gap-5">
 
           <div className="flex flex-col justify-center items-center mt-5">
             <div className="w-4 h-4 rounded-full bg-[#915eff]" />
@@ -27,48 +21,32 @@ const Hero = () => {
             </h1>
 
             <p className={`${styles.heroSubText} mt-3 text-gray-300`}>
-              Sou desenvolvedor Frontend, <br className="sm:block hidden"/>
-              Backend e DevOps!
+              Sou desenvolvedor de <br className="sm:block hidden"/>
+              Software!
             </p>
 
             <a href="/files/Curriculo.pdf" download>
-
-  
-                <button className=' mt-6
-                  
+              <button
+                className="
+                  mt-6
                   border border-[#915eff]
                   text-white
+                  px-6 py-3 rounded-xl
                   transition-all duration-300 ease-out
-                  hover:scale-95
                   hover:bg-[#915eff]
+                  hover:scale-95
                   active:scale-90
-                 px-6 py-3 rounded-xl
-
-                
-                
-                
-                
-                
-                
-                
-                '>Baixe meu cv!</button>
-               
+                "
+              >
+                Baixe meu CV!
+              </button>
             </a>
-           
-              
-                
-             
           </div>
 
-        </motion.div>
+        </div>
 
-      
-        <motion.div
-          initial={{ x: 80, opacity: 0, scale: 0.9 }}
-          animate={{ x: 0, opacity: 1, scale: 1 }}
-          transition={{ duration: 0.9, ease: "easeOut", delay: 0.2 }}
-          className="flex items-center justify-center"
-        >
+        {/* FOTO */}
+        <div className="flex items-center justify-center">
 
           <div className="
             w-[320px] h-[320px]
@@ -79,17 +57,19 @@ const Hero = () => {
           ">
 
             <img
-              src='/iconNoBg.png'
+              src="/iconNoBg.png"
               alt="Henry"
-              className="w-[95%] h-[110%]
+              className="
+                w-[95%] h-[110%]
                 object-cover
                 rounded-full
-                -translate-y-3"
+                -translate-y-3
+              "
             />
 
           </div>
 
-        </motion.div>
+        </div>
 
       </div>
     </section>

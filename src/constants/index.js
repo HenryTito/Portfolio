@@ -15,14 +15,24 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+
+ 
   threejs,
+  replica,
+  fatec,
+  travia,
+  vendas,
+  newe,
+  mysql,
+  java,
+  csharp,
+  newMy,
+  elo,
+  alura,
+  fatecLogo,
+  freelancer
+ 
+
 } from "../assets";
 
 export const navLinks = [
@@ -81,8 +91,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Java",
+    icon: java,
   },
   {
     name: "Tailwind CSS",
@@ -97,12 +107,12 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "MySQL",
+    icon: newMy,
   },
   {
-    name: "git",
-    icon: git,
+    name: "csharp",
+    icon: csharp,
   },
   {
     name: "figma",
@@ -116,55 +126,55 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Ensino Médio",
+    company_name: "Elo Educacional",
+    icon: elo,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Janeiro 2022 - Dezembro 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conclusão do Ensino Médio com início da trajetória na área de tecnologia.",
+      "Primeiros estudos em programação, com foco principal em desenvolvimento Frontend.",
+      "Desenvolvimento de diversos projetos práticos para consolidar lógica e fundamentos web.",
+      "Criação de um site institucional para divulgação da Feira do Conhecimento do colégio.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Desenvolvedor Backend",
+    company_name: "Alura",
+    icon: alura,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2023 - Dezembro 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Aprofundamento em desenvolvimento Backend, computação em nuvem e práticas DevOps.",
+      "Experiência com Docker, ambientes containerizados e deploy de aplicações na AWS e GCP.",
+      "Desenvolvimento de projetos completos com bancos de dados relacionais e APIs REST.",
+      "Participação em imersões técnicas envolvendo automação, fullstack e integração em nuvem.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Freelancer",
+    company_name: "",
+    icon: freelancer,
+    iconBg: "#383E56",
+    date: "Jan 2023 - Jan 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Atuação em trabalhos independentes para clientes externos, com foco em soluções sob demanda.",
+      "Destaque para o projeto Travia, sistema de análise de tráfego com IA financiado por professor do ITA.",
+      "Desenvolvimento de sistema de controle de vendas em Java com integração a banco de dados.",
+      "Criação de automação de cadastros corporativos com Python, incluindo integração com chatbot.",
+    ],
+  },
+  {
+    title: "Desenvolvedor FullStack",
+    company_name: "Fatec",
+    icon: fatecLogo,
+    iconBg: "#383E56",
+    date: "Fev 2025 - Presente",
+    points: [
+      "Ingresso na Fatec em janeiro de 2025, atualmente cursando o 3º semestre.",
+      "Evolução significativa das hard skills técnicas e aprofundamento das soft skills.",
+      "Experiência em trabalhos em equipe utilizando metodologia ágil Scrum.",
+      "Desenvolvimento de projetos acadêmicos e independentes com foco em soluções completas.",
     ],
   },
 ];
@@ -172,97 +182,139 @@ const experiences = [
 
 
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Plataforma Newe",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      `Plataforma web intersetorial desenvolvida em grupo para a empresa de logística Newe, com segurança, autenticação por tokens e integração completa com banco de dados. Atuei como Dev Team, sendo responsável pelo Backend (arquitetura MVC de usuários, sistemas de lembrete e migrations), Frontend (design no Figma e criação das páginas) e DevOps (containerização da aplicação em Docker e execução em ambiente AWS), utilizando a metodologia ágil Scrum.`
+,
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "mysql",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: newe,
+    source_code_link: "https://github.com/Kernel-Panic-FatecSjc/KernelPanic-2DSM-API",
+  },
+  {
+    name: "Análise Comercial SP",
+    description:
+      `Plataforma web desenvolvida em grupo para análise e visualização de dados, com normalização de +12 milhões de registros e integração completa com banco de dados relacional. Atuei como DevTeam, responsável pelo banco de dados MySQL, backend em Python com Flask (queries dinâmicas e filtros), containerização com Docker e deploy na AWS EC2. O design foi criado no Figma e o frontend desenvolvido com HTML, CSS e JavaScript, utilizando metodologia ágil Scrum.`,
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "pandas",
+        color: "green-text-gradient",
+      },
+      {
+        name: "colab",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: fatec,
+    source_code_link: "https://github.com/Kernel-Panic-FatecSjc/KernelPanic-1DSM-API",
+  },
+  {
+    name: "Travia",
+    description:
+      `Sistema de análise de tráfego urbano desenvolvido em grupo para reconhecimento automático de veículos por Inteligência Artificial, com processamento de mais de 10 mil imagens aéreas e identificação em tempo real do fluxo viário. Responsável pela rotulação no CVAT, organização e padronização dos dados com Python, treinamento do modelo YOLOv8 no Google Colab e desenvolvimento da aplicação para detecção e contagem de veículos com alta precisão.`,
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "cvat",
+        color: "green-text-gradient",
+      },
+      {
+        name: "yolov8",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: travia,
+    source_code_link: "https://github.com/",
+  },
+   {
+    name: "Sistema de Vendas",
+    description:
+      `Desenvolvimento de sistema de vendas e estoque com Java (Swing) e MySQL, estruturado em MVC com JDBC/DAO. Possui CRUD completo, autenticação com níveis de acesso, integração com WebService (consulta de CEP) e controle de estoque e histórico de vendas.`
+      ,
+    tags: [
+      {
+        name: "java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "swing",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: vendas,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Aerocode",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      `Desenvolvi um sistema completo de gestão de produção aeronáutica com frontend em Next.js e backend em Node.js + Express + TypeScript, utilizando Prisma ORM para integração com MySQL e seguindo arquitetura MVC. O projeto inclui autenticação de usuários, modelos de dados gerados com Prisma e interfaces web responsivas..`
+      ,
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mysql/prisma",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: vendas,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Réplica Spotify",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      `Aplicação web inspirada no Spotify, desenvolvida com React e TypeScript, focada em reprodução de músicas, gerenciamento de playlists e interface moderna e responsiva. O projeto utiliza arquitetura escalável com integração a backend, banco relacional e armazenamento de arquivos em nuvem para streaming de áudio.`
+      ,
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "postgreSQL",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: replica,
     source_code_link: "https://github.com/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

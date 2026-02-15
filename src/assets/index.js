@@ -21,15 +21,27 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+
+
+
 import tripguide from "./tripguide.png";
+import fatec from './fatecexport.png'
 
+import vendas from './vendas.png'
+import travia from './travia.jpg'
+import newe from './newe.png'
+import java from './tech/java.png'
+
+import csharp from './tech/csharp.png'
+import mysql from './tech/mysqlIcon.png'
+import fatecLogo from './tech/logoFatec.jpg'
+import elo from './tech/logoElo.png'
+import newMy from './tech/top.png'
+import replica from './spotify.png'
+import freelancer from './jobicon.png'
+
+import alura from './alr.png'
 export {
   logo,
   backend,
@@ -52,11 +64,23 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+ 
+
+  
+
+  fatec,
+  replica,
+  vendas,
+  travia,
+  newe,
+  java,
+  csharp,
+  mysql,
+  fatecLogo,
+  elo,
+  newMy,
+  alura,
+  freelancer
+  
+
 };
