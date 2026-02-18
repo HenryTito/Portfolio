@@ -7,7 +7,7 @@ const Hero = () => {
   
       <div className={`${styles.paddingX} max-w-7xl mx-auto w-full flex items-center justify-between`}>
 
-        {/* TEXTO */}
+        
         <div className="flex flex-row items-start gap-5">
 
           <div className="flex flex-col justify-center items-center mt-5">
@@ -45,14 +45,15 @@ const Hero = () => {
 
         </div>
 
-        {/* FOTO */}
+        
         <div className="flex items-center justify-center">
 
           <div className="
             w-[320px] h-[320px]
             rounded-full
             bg-[#7c4dff]
-            backdrop-blur-sm
+            border-[2px] border-[#0b1024]  
+            p-[4px]
             flex items-center justify-center
           ">
 
@@ -63,6 +64,7 @@ const Hero = () => {
                 w-[95%] h-[110%]
                 object-cover
                 rounded-full
+
                 -translate-y-3
               "
             />

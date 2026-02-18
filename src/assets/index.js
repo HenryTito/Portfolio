@@ -20,7 +20,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import biggerIcon from './githubbigger.png'
+import linked from './linked.png'
+import zap from './zapzap.png'
 
 
 
@@ -40,6 +42,8 @@ import elo from './tech/logoElo.png'
 import newMy from './tech/top.png'
 import replica from './spotify.png'
 import freelancer from './jobicon.png'
+import av2 from './av2.png'
+import exp from './exp.png'
 
 import alura from './alr.png'
 export {
@@ -80,7 +84,12 @@ export {
   elo,
   newMy,
   alura,
-  freelancer
+  freelancer,
+  av2,
+  biggerIcon,
+  zap,
+  linked,
+  exp
   
 
 };

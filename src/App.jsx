@@ -4,6 +4,7 @@ import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsC
 
 
 
+
 const App = ()=>{
   return (
    <BrowserRouter>
@@ -23,7 +24,10 @@ const App = ()=>{
       <div className='relative z-0'>
 
         <Contact />
+        
         <StarsCanvas />
+        
+       
 
       </div>
 

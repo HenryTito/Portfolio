@@ -30,7 +30,12 @@ import {
   elo,
   alura,
   fatecLogo,
-  freelancer
+  freelancer,
+  av2,
+  biggerIcon,
+  linked,
+  zap,
+  exp
  
 
 } from "../assets";
@@ -225,7 +230,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: fatec,
+    image: exp,
     source_code_link: "https://github.com/Kernel-Panic-FatecSjc/KernelPanic-1DSM-API",
   },
   {
@@ -290,7 +295,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: vendas,
+    image: av2,
     source_code_link: "https://github.com/",
   },
   {
@@ -317,4 +322,27 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+
+const underNav = [{
+  name:'github',
+  icon: biggerIcon,
+  link:'https://github.com/HenryTito'
+},
+{
+  name:'linkedIn',
+  icon:linked,
+  link:'https://www.linkedin.com/in/henry-tito-989b4b354/'
+},
+{
+name:'whatsapp',
+icon:zap,
+link:'https://wa.me/5512991358590'
+
+}
+
+
+]
+
+
+
+export { services, technologies, experiences, projects, underNav };
