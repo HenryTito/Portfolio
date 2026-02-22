@@ -4,7 +4,8 @@ This is my personal portfolio project built with **React** and **Vite**, focused
 
 The goal of this project is to present my skills, projects, and experience as a software developer in a clean and professional way.
 
-### WIP!  (Work in progress), still not finished.
+[Check it out!](https://henrytito.com.br/)
+
 
 ---
 
@@ -15,6 +16,7 @@ The goal of this project is to present my skills, projects, and experience as a 
 - Tailwind CSS
 - Framer Motion
 - React Parallax Tilt
+- Three.js
 
 ---
 
