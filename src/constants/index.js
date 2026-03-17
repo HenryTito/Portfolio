@@ -164,7 +164,7 @@ const experiences = [
     date: "Jan 2023 - Jan 2025",
     points: [
       "Atuação em trabalhos independentes para clientes externos, com foco em soluções sob demanda.",
-      "Destaque para o projeto Travia, sistema de análise de tráfego com IA financiado por professor do ITA.",
+      "Destaque para o projeto Travia, sistema de análise de tráfego com IA financiado por professor do ITA (Instituto Tecnológico de Aeronáutica).",
       "Desenvolvimento de sistema de controle de vendas em Java com integração a banco de dados.",
       "Criação de automação de cadastros corporativos com Python, incluindo integração com chatbot.",
     ],
@@ -236,7 +236,7 @@ const projects = [
   {
     name: "Travia",
     description:
-      `Sistema de análise de tráfego urbano desenvolvido em grupo para reconhecimento automático de veículos por Inteligência Artificial, com processamento de mais de 10 mil imagens aéreas e identificação em tempo real do fluxo viário. Responsável pela rotulação no CVAT, organização e padronização dos dados com Python, treinamento do modelo YOLOv8 no Google Colab e desenvolvimento da aplicação para detecção e contagem de veículos com alta precisão.`,
+      `Sistema de análise de tráfego urbano desenvolvido em grupo em parceria com um professor do ITA (Instituto Tecnológico de Aeronáutica), para reconhecimento automático de veículos por Inteligência Artificial, com processamento de mais de 10 mil imagens aéreas e identificação em tempo real do fluxo viário. Responsável pela rotulação no CVAT, organização e padronização dos dados com Python, treinamento do modelo YOLOv8 no Google Colab e desenvolvimento da aplicação para detecção e contagem de veículos com alta precisão.`,
     tags: [
       {
         name: "python",
