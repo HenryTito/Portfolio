@@ -36,7 +36,7 @@ const Hero = () => {
             </p>
 
             <div className="flex justify-center lg:justify-start">
-              <a href="/files/CURRICULOHENRYTITO.pdf" download>
+              <a href="/files/CurriculoHenryTitoOficial.pdf" download>
                 <button
                   className="
                     mt-6
